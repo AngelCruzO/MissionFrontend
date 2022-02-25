@@ -1,9 +1,10 @@
 # MissionFrontEnd
 
-Practicas para la Mission Frontend para el programa Launch X de Innovaccion Virtual
+El siguiente repositorio se ubican las practicas realizadas en el programa Launch X, donde estan separadas por cada modulo visto durante la Mission Frontend
 
 1. Introducción
-
+   
+   * [Notas para Analisis de Requisitos](https://www.notion.so/Abogabot-92650ab06f524068a25e672b4d30303f)
    * [Analisis de Requerimientos](01.-INTRO/ERSAbogaBot.docx)
    * [Buyer Persona](01.-INTRO/BuyerPersona.pdf)
    * [Publico Objetivo](https://miro.com/app/board/uXjVOLE07ys=/?invite_link_id=501326055963)
