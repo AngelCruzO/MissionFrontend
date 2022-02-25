@@ -4,7 +4,7 @@ El siguiente repositorio se ubican las practicas realizadas en el programa Launc
 
 1. Introducción
    
-   * [Notas para Analisis de Requisitos](https://www.notion.so/Abogabot-92650ab06f524068a25e672b4d30303f)
+   * [Notas para Analisis de Requisitos](https://knowing-pipe-d0a.notion.site/Abogabot-92650ab06f524068a25e672b4d30303f)
    * [Analisis de Requerimientos](01.-INTRO/ERSAbogaBot.docx)
    * [Buyer Persona](01.-INTRO/BuyerPersona.pdf)
    * [Publico Objetivo](https://miro.com/app/board/uXjVOLE07ys=/?invite_link_id=501326055963)
