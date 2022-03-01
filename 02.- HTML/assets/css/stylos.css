@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    /*background-color: #FF4D6D;*/
+    position: relative;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+.heading{
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #FF4D6D;
+}
+
+.subtitle{
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #FFA6B6;
+}
+
+/* MENU*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #FFA6B6;
+    padding: 10px 50px;
+}
+
+nav .logo{
+    width: 85px;
+    height: 85px;
+    padding: 20px 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    /*font-family:  myriad pro regular;*/
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 60px;
+}
+
+nav ul li a:hover{
+    color:  #C6F33F;
+}
+
+/*HOME*/
+
+.home{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#FFA6B6, #E7D8C5, #FFFFFF);
+}
+
+.home img{
+    width: 200px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 20px 10px;
+}
+
+.home .content{
+    width: 50%;
+    margin: auto;
+}
+
+.home .content h1{
+    color: #ffff;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+
+.home .content p{
+    font-size: 20px;
+    bottom: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.home .content a{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background: #E7D8C5;
+    justify-content: center;
+    align-items: center;
+    color: #FF4D6D;
+    font-weight: 900;
+}
+
+
+/* Catalogo */
+.catalogo h1{
+    position: relative;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sabores,.adornos{
+    width: 50%;
+    height: 300px;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+/* Pedidos */
+.pedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.pedido h1{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.pedido input,textarea{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px 10px;
+}
+
+.pedido textarea{
+    height: 100px;
+    font-size: 12px;
+    font-weight: bold;
+}

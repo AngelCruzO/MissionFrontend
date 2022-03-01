@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Header-->
+
+    <header>  <!--Color #FFA6B6-->
+        <nav>
+            <img src="assets/images/logo.png" alt="Logo pasteleria Via Lactea" class="logo">
+        </nav><!--./nav-->
+    </header><!--./header-->
+
+    <main>
+        <div class="pedido">
+            <h1>Realizar tu pedido</h1>
+            <form action="index.html">                
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input type="tel" id="telefono" name="telefono" placeholder="Telefono" max="10">
+                <input type="email" id="email" name="email" placeholder="Correo electrónico">
+                <textarea name="descripción" id="descripcion" cols="30" rows="10">Descripción general del pastel...</textarea>
+                <h2>Sabores</h2>
+                <input type="checkbox" name="vainilla" id="vainilla"><label for="vainilla">Vainilla</label>
+                <input type="checkbox" name="chocolate" id="chocolate"><label for="chocolate">Chocolate</label>
+                <input type="checkbox" name="cheescake" id="cheescake"><label for="cheescake">Cheescake</label>
+                <input type="checkbox" name="fresa" id="fresa"><label for="fresa">Fresa</label>
+                <input type="checkbox" name="cajeta" id="cajeta"><label for="cajeta">Cajeta</label>
+                <input type="checkbox" name="cafe" id="cafe"><label for="cafe">Cafe</label>
+                <input type="checkbox" name="oreo" id="oreo"><label for="oreo">Oreo</label>
+                <input type="checkbox" name="envinado" id="envinado"><label for="envinado">Envinado</label>
+                <h2>Adornos</h2>                
+                <input type="checkbox" name="crema" id="crema"><label for="crema">Crema batida</label>
+                <input type="checkbox" name="fondat" id="fondat"><label for="fondat">Fondat</label>
+                <input type="checkbox" name="trozos" id="trozos"><label for="trozos">Trozos de chocolate</label>
+                <input type="checkbox" name="galletas" id="galletas"><label for="galletas">Galletas</label>
+                <input type="checkbox" name="frutas" id="frutas"><label for="frutas">Frutas</label>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
