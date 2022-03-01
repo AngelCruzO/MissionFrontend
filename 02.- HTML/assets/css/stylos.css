@@ -34,8 +34,18 @@ main{
 
 .subtitle{
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: 900;
     color: #FFA6B6;
+}
+
+.marcaAgua{
+    position: relative;
+    z-index: -1;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position: center;
+    opacity: 0.5;
 }
 
 /* MENU*/
@@ -140,6 +150,12 @@ nav ul li a:hover{
     margin-top: 50px;
 }
 
+/*Contacto*/
+
+.contact h1{
+    position: relative;
+    text-align: center;
+}
 
 /* Pedidos */
 .pedido{
