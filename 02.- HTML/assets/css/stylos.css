@@ -17,13 +17,18 @@ a{
 
 header{
     width: 100%;
-    /*background-color: #FF4D6D;*/
     position: relative;
 }
 
 main{
     width: 100%;
     position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading{
@@ -36,6 +41,13 @@ main{
     margin-bottom: 20px;
     font-weight: 900;
     color: #FFA6B6;
+}
+
+.text{
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .marcaAgua{
@@ -70,7 +82,6 @@ nav ul{
 
 nav ul li a{
     margin: 30px;
-    /*font-family:  myriad pro regular;*/
     color: #fff;
     font-size: 15px;
     font-weight: 700;
@@ -134,12 +145,6 @@ nav ul li a:hover{
     text-align: center;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .sabores,.adornos{
     width: 50%;
     height: 300px;
@@ -151,37 +156,88 @@ nav ul li a:hover{
 }
 
 /*Contacto*/
-
 .contact h1{
     position: relative;
     text-align: center;
 }
 
-/* Pedidos */
-.pedido{
-    display: flex;
+.datos,.map{
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #E7D8C5;
     justify-content: center;
     align-items: center;
-    margin: 10px 5px;
+    display: flex;
 }
 
+h3{
+    font-size: 15px;
+}
+
+
+/* Pedidos */
 .pedido h1{
-    display: flex;
-    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    margin: 35px;
 }
 
-.pedido input,textarea{
+form{
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+input{
     width: 100%;
-    height: 30px;
-    display: flex;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
-    font-size: 16px;
-    padding: 5px;
-    margin: 20px 10px;
+    height: 50px;
+    margin: 10px;
+    font-size: 13px;
+    font-weight: lighter;
 }
 
-.pedido textarea{
+textarea{
+    width: 100%;
     height: 100px;
-    font-size: 12px;
-    font-weight: bold;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 5px;
 }
+
+input[type=checkbox]{
+    height: 25px;
+    width: 200px;
+    margin-right: -50px;
+}
+
+input::placeholder{
+    padding-left: 20px;
+}
+
+.sabor{
+    font-size: 2.2rem;
+    font-weight: 200;
+}
+
+.adorno{
+    font-size: 1.5rem;
+}
+
+
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    background: #FF4D6D;
+    color: #C6F33F;
+    border: none;
+    cursor: pointer;
+}
+
