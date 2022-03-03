@@ -60,6 +60,40 @@ main{
     opacity: 0.5;
 }
 
+.gradient1{
+    background: linear-gradient(90deg, rgba(255,77,109,0.8239670868347339) 15%, rgba(255,70,182,0.7035189075630253) 45%, rgba(231,216,197,0.938813025210084) 100%);
+}
+
+.gradient2{
+    background: linear-gradient(90deg, rgba(255,166,182,0.7231267507002801) 15%, rgba(231,216,197,0.9108018207282913) 45%, rgba(198,243,63,0.6643032212885154) 100%);
+}
+
+.gradient3{
+    background: linear-gradient(328deg, rgba(255,166,182,0.7231267507002801) 15%, rgba(231,216,197,0.9108018207282913) 45%, rgba(255,255,255,1) 100%);
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title-white{
+    color: #fff;
+}
+
+.title-pink-dark{
+    color: #FF4D6D;
+}
+
+.info-green-lime{
+    color: #C6F33F;
+}
+
+.info{
+    font-size: 45px;
+    font-weight: bold;
+}
+
 /* MENU*/
 nav{
     display: flex;
@@ -147,12 +181,16 @@ nav ul li a:hover{
 
 .sabores,.adornos{
     width: 50%;
-    height: 300px;
+    height: 400px;
     color: #000;
     font-weight: 600;
     display: inline-block;
     margin-left: 150px;
     margin-top: 50px;
+}
+
+li{
+    margin-top: 15px;
 }
 
 /*Contacto*/
@@ -255,3 +293,40 @@ input::placeholder{
 }
 
 /*Administrador*/
+.card{
+    margin-top: 50px;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    border: 2px solid #000;
+}
+
+.pedidos{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing:  3px;
+}
+
+th,td{
+    padding: 12px;
+    border-bottom: 2px solid #000;
+    height: auto;
+}
+
+td{
+    font-size: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(244,71,100,.29);
+}
