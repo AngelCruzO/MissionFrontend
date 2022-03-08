@@ -81,6 +81,7 @@ header{
     height: 50px;
     padding: 10px;
     color:#3050CE;
+    text-align: center;
 }
 
 .btn:hover{
@@ -264,7 +265,7 @@ button{
 
 .card{
     width: 250px;
-    height: 300px;
+    height: 320px;
     border: 2px solid rgba(0,0,0,0.3);
     border-radius: 5px;
     margin: 30px;
@@ -335,8 +336,16 @@ button{
 }
 
 /*CONTACT*/
-.emergency{
+.spaceT{
     margin-top: 30px;
+}
+
+.emergency{
+    margin-top: 20px;
+}
+
+.spaceC{
+    margin-top: -150px;
 }
 
 .contact{
@@ -344,17 +353,120 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: -100px;
 }
 
+.card-small{
+    width: 200px;
+    height: 170px;
+    border: 2px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.card-small i{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #3050CE;
+}
+
+.card-small h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #3050CE;
+    font-weight: normal;
+}
+
+.card-small p{
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 13px;
+}
+
+.card-small a{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.card-small:hover{
+    transform: scale(1.1);
+    box-shadow: 2px -1px 17px 2px rgba(0,0,0,0.46);
+    transition: 1s;
+}
 
 /*FOOTER*/
 footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
     background: rgba(170,179,192,0.5);
 }
 
+footer .texto{
+    display: inline-block;
+    width: 200px;
+    padding-left: 30px;
+}
+
+footer .texto p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer .links{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 700px;
+}
+
+footer .column{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer .column h2{
+    color: #1F3E72;
+}
+
+footer .column ul{
+    padding-top: 10px;
+}
+
+footer .column ul li{
+    margin: 10px;
+    font-weight: normal;
+}
+
+footer .column ul li a{
+    color: #6D7B93;
+    list-style: none;
+}
+
+footer .derechos{
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 250px;
+}
+
+footer .politicas{
+    position: relative;
+    left: 1000px;
+    top: -10px;
+    margin-bottom: 15px;
+}
+
+footer .politicas p{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
