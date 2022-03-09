@@ -472,7 +472,6 @@ footer .politicas p{
 }
 
 /*DATA*/
-
 .data{
     width: 100%;
     height: 100vh;
@@ -493,4 +492,59 @@ footer .politicas p{
 
 .data p{
     margin-bottom: 20px;
+}
+
+/*EDUCATION*/
+.courses{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.courses p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+
+.list h2{
+    margin-bottom: 20px;
+}
+
+.list article{
+    display: block;
+    padding: 20px;
+    border: 2.5px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    height: 280px;
+    margin: 20px;
+}
+
+.list article h2{
+    text-align: justify;
+    font-size: 25px;
+}
+
+.list article hr{
+    margin-bottom: 20px;
+    border: 2px solid #2379DF;
+}
+
+.list article h3{
+    color: #2379DF;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.list article p{
+    font-size: 16px;
+    color: #000;
+}
+
+.list article a{
+    display: block;
+    float: right;
 }
