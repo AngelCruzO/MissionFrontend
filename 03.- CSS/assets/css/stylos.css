@@ -82,7 +82,7 @@ header{
     padding: 10px;
     color:#3050CE;
     text-align: center;
-    background: #fff;
+    background: transparent;
 }
 
 .btn:hover{
