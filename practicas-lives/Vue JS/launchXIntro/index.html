@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vue Intro LaunchX</title>
+</head>
+<body>
+
+    <div id="app">
+        <img v-bind:src="foto" alt="foto perfil" :class="genero">
+
+        <h1>{{nombre}} {{apellido}}</h1>
+        <h3>{{email}}</h3>
+
+        <!-- : contraccion para los binds de vue-->
+        <button v-on:click="cambiarUsuario()" :class="genero">Tener un usuario random</button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="app.js"></script>
+    <!-- <script>
+    Vue.createApp({
+        data() {
+        return {
+            message: 'Hello',
+            name: 'explorers'
+        }
+        }
+    }).mount('#app')//donde se monta el contenido
+    </script> -->
+
+</body>
+</html>
