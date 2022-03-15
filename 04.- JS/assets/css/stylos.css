@@ -34,6 +34,7 @@ ul{
     width: 350px;
     height: 170px;
     border: 2px solid rgba(0, 0, 0, 0.3);
+    background: radial-gradient(circle, rgba(249,249,251,1) 0%, rgba(6,6,247,0.4766281512605042) 30%, rgba(240,241,245,0.742734593837535) 70%, rgba(238,15,0,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
