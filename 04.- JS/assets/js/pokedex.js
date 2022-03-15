@@ -2,6 +2,8 @@ let pokeImg = document.getElementById("pokeImg");
 let pokeName = document.getElementById("pokeName1");
 let pokeType = document.getElementById("pokeType");
 let pokeStats = document.getElementById("pokeStats");
+let pokeAbilities = document.getElementById("pokeAbilities");
+let pokeNum = document.getElementById("pokeNum");
 
 //funcion para extraer pokemons
 const fecthPokemon = () => {
@@ -16,6 +18,7 @@ const fecthPokemon = () => {
         }else{
             pokeType.innerHTML = "";
             pokeStats.innerHTML = "";
+            pokeAbilities.innerHTML = "";
             return res.json();
         }
         
@@ -41,13 +44,18 @@ const fecthPokemon = () => {
 const pokeInfo = (url) => {
     pokeImg.src = url.image;
     pokeName.innerHTML = url.name;
+    pokeNum.innerHTML = `# ${url.number}`;
 
     for(var i=0;i<url.type.length;i++){
-        pokeType.innerHTML += url.type[i].type.name + " ";
+        pokeType.innerHTML += `${url.type[i].type.name} `;
     }
 
-    for(var j=0;j<url.stats.length;j++){
+    for(var j=0;j<6;j++){
         pokeStats.innerHTML += `<li> ${url.stats[j].stat.name}: ${url.stats[j].base_stat}</li>`;
+    }
+
+    for(var k=0;k<url.abilities.length;k++){
+        pokeAbilities.innerHTML += `<li> ${url.abilities[k].ability.name}</li>`;
     }
     
 }
