@@ -15,7 +15,7 @@ const app = Vue.createApp({
         async cambiarUsuario(){
             //hasta que no termine estas dos lineas no continua
             const res = await fetch('https://randomuser.me/api/');
-            const { results } = await res.json();
+            const { results } = await res.json(); //{results} se trata de un objeto
 
             this.nombre = results[0].name.first
             this.apellido = results[0].name.last
