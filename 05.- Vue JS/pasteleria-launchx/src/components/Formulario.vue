@@ -5,24 +5,24 @@
             <form class="row g-3">
 
                 <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Juan Perez Lopez">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Juan Perez Lopez" id="name" v-model="name">
                 </div><!--./col-->
 
                 <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
-                    <label for="telefono" class="form-label">Telefono</label>
-                    <input type="tel" class="form-control" id="telefono" placeholder="(55)1236-4515">
+                    <label for="phone" class="form-label">Telefono</label>
+                    <input type="tel" class="form-control" placeholder="(55)1236-4515" id="phone" v-model="phone">
                 </div><!--./col-->
                         
 
                 <div class="col-sm-12 col-md-8 col-lg-8 mt-3">
                     <label for="email" class="form-label">Correo electronico</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <input type="email" class="form-control" placeholder="name@example.com" v-model="email">
                 </div><!--./col-->
 
                 <div class="col-sm-12 col-md-8 col-lg-8 mt-3">
                     <label for="descripcion" class="form-label">Descrición general del pastel</label>
-                    <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                    <textarea class="form-control" rows="3" v-model="description"></textarea>
                 </div><!--./col-->
 
                 <div class="col-sm-12 col-md-8 col-lg-8 mt-3">
@@ -30,42 +30,42 @@
                     <div class="btn-group">
                         <div class="row">
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="chocolate">
+                                <input type="checkbox" class="btn-check" id="chocolate" value="chocolate" v-model="flavors">
                                 <label for="chocolate" class="btn btn-outline-light border border-dark">Chocolate</label>
                             </div>
                             
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="envinado">
+                                <input type="checkbox" class="btn-check" id="envinado" value="envinado" v-model="flavors">
                                 <label for="envinado" class="btn btn-outline-light border border-dark">Envinado</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="vainilla">
+                                <input type="checkbox" class="btn-check" id="vainilla" value="vainilla" v-model="flavors">
                                 <label for="vainilla" class="btn btn-outline-light border border-dark">Vainilla</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="fresa">
+                                <input type="checkbox" class="btn-check" id="fresa" value="fresa" v-model="flavors">
                                 <label for="fresa" class="btn btn-outline-light border border-dark">Fresa</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="cajeta">
+                                <input type="checkbox" class="btn-check" id="cajeta" value="cajeta" v-model="flavors">
                                 <label for="cajeta" class="btn btn-outline-light border border-dark">Cajeta</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="cafe">
+                                <input type="checkbox" class="btn-check" id="cafe" value="cafe" v-model="flavors">
                                 <label for="cafe" class="btn btn-outline-light border border-dark">Cafe</label>
                             </div>
                             
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="cheesecake">
+                                <input type="checkbox" class="btn-check" id="cheesecake" value="cheesecake" v-model="flavors">
                                 <label for="cheesecake" class="btn btn-outline-light border border-dark">Cheesecake</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="oreo">
+                                <input type="checkbox" class="btn-check" id="oreo" value="oreo" v-model="flavors">
                                 <label for="oreo" class="btn btn-outline-light border border-dark">Oreo</label>
                             </div>
                             
@@ -78,28 +78,28 @@
                     <div class="btn-group">
                         <div class="row">
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="crema">
-                                <label for="crema" class="btn btn-outline-light border border-dark">Crema batida</label>
+                                <input type="checkbox" class="btn-check" id="crema" value="crema batida" v-model="ornaments">
+                                <label for="crema" class="btn btn-outline-light border border-dark" >Crema batida</label>
                             </div>
                             
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="trozos">
+                                <input type="checkbox" class="btn-check" id="trozos" value="trozos de chocolate" v-model="ornaments">
                                 <label for="trozos" class="btn btn-outline-light border border-dark">Trozos de chocolate</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="galletas">
+                                <input type="checkbox" class="btn-check" id="galletas" value="galletas" v-model="ornaments">
                                 <label for="galletas" class="btn btn-outline-light border border-dark">Galletas</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="frutas">
+                                <input type="checkbox" class="btn-check" id="frutas" value="frutas" v-model="ornaments">
                                 <label for="frutas" class="btn btn-outline-light border border-dark">Frutas</label>
                             </div>
 
                             <div class="col mt-3">
-                                <input type="checkbox" class="btn-check" id="fondat">
-                                <label for="fondat" class="btn btn-outline-light border border-dark">Fondat</label>
+                                <input type="checkbox" class="btn-check" id="fondat" value="fondat" v-model="ornaments">
+                                <label for="fondat" class="btn btn-outline-light border border-dark" >Fondat</label>
                             </div>
 
                         </div><!--./row-->
@@ -110,7 +110,7 @@
 
             <div class="row mb-4">
                 <div class="col centrado">
-                    <button class="btn-pink">Enviar</button>
+                    <button class="btn-pink" @click="agregarPedido()">Enviar</button>
                 </div><!--./col-->
             </div><!--./row-->
 
@@ -120,7 +120,32 @@
 
 <script>
 export default {
-    name: 'Formulario'
+    name: 'Formulario',
+    data(){
+        return{
+            name: "",
+            phone: "",
+            email: "",
+            description: "",
+            flavors: [],
+            ornaments: []
+        }
+    },
+    methods:{
+        agregarPedido(){
+
+            var pedido = {
+                nombre: this.name,
+                telefono: this.phone,
+                correo: this.email,
+                descripcion: this.description,
+                sabores: this.flavors,
+                adornos: this.ornaments
+            }
+
+            return this.$store.state.listPedidos.push(pedido)
+        }
+    }
 }
 </script>
 

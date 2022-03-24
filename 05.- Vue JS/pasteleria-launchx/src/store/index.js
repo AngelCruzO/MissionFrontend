@@ -4,11 +4,14 @@ export default createStore({
   state: {
     sabores: 50,
     adornos: 20,
-    pedidos: 0
+    listPedidos: []
   },
   getters: {
+    
   },
   mutations: {
+    //metodos para poder cambiar datos o agregar
+    
   },
   actions: {
   },

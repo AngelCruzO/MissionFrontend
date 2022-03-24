@@ -31,7 +31,7 @@
                     <div class="card-header">Pedidos</div>
 
                     <div class="card-body">
-                        <p class="card-text">{{ $store.state.pedidos }}</p>
+                        <p class="card-text" >{{ $store.state.listPedidos.length }}</p>
                     </div>
 
                 </div><!--./card-->
