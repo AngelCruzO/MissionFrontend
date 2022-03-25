@@ -16,3 +16,7 @@ El siguiente repositorio se ubican las practicas realizadas en el programa Launc
 3. CSS
    * [Campaña publicitaria](https://miro.com/app/board/uXjVOGmpBL0=/?invite_link_id=651295536913)
    * [Sitio Web](https://angelcruzo.github.io/vaccination-COVID/)
+4. JS
+   * [Pokedex LaunchX](https://angelcruzo.github.io/pokedex-LaunchX/)
+5. Vue JS
+   * [Pasteleria Via Lactea](https://pastelerialaunchx120.netlify.app/)
