@@ -10,7 +10,7 @@
                     Los mejores pasteles que puedes probar, al realizar tu pedido puedes 
                     personalizarlo a tu gusto y presupuesto.
                 </p>
-                <a href="pedidos.html">Realiza tu pedido</a>
+                <router-link to="/pedidos" class="link">Realiza tu pedido</router-link>
             </div><!--./content-->
         </section><!--./home-->
 </template>

@@ -15,18 +15,19 @@
                 </thead><!--./thead-->
 
                 <tbody>
-                    <tr>
-                        <th>1</th>
-                        <td>Juan Lopez Jimenez</td>
-                        <td>55 1252-1541</td>
-                        <td>juan_120@hotmail.com</td>
-                        <td>Tamaño pequeño, sin gluten <br> y poca azucar</td>
-                        <td>Chocolate</td>
-                        <td>Frutas,Fondat</td>
+                    <tr v-for="(item,index) in $store.getters.imprimirPedidos" :key="index">
+                        <th>{{index+1}}</th>
+                        <td>{{item.nombre}}</td>
+                        <td>{{item.telefono}}</td>
+                        <td>{{item.correo}}</td>
+                        <td>{{item.descripcion}}</td>
+                        <td>{{item.sabores.toString()}}</td>
+                        <td>{{item.adornos.toString()}}</td>
                     </tr>
                 </tbody><!--./tdoby-->            
             </table><!--./table-->
         </div><!--./table-responsive-->
+
     </section><!--./section-->
 </template>
 

@@ -104,8 +104,7 @@
 
                         </div><!--./row-->
                     </div><!--./btn-group-->
-                </div><!--./col--> 
-
+                </div><!--./col-->
             </form><!--./row-->
 
             <div class="row mb-4">
@@ -132,6 +131,10 @@ export default {
         }
     },
     methods:{
+        /* agregarPedido: agrega los datos registrados en el formulario en forma de objeto a una lista en los state
+         * Entrada: 
+         * Salida: el state listPedidos con un nuevo pedido
+        */
         agregarPedido(){
 
             var pedido = {

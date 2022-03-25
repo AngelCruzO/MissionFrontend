@@ -7,7 +7,7 @@
                     <div class="card-header">Sabores</div>
 
                     <div class="card-body">
-                        <p class="card-text">{{ $store.state.sabores }}</p>
+                        <p class="card-text">{{ $store.getters.totalSabores }}</p>
                     </div>
 
                 </div><!--./card-->
@@ -19,7 +19,7 @@
                     <div class="card-header">Adornos</div>
 
                     <div class="card-body">
-                        <p class="card-text">{{ $store.state.adornos }}</p>
+                        <p class="card-text">{{ $store.getters.totalAdornos }}</p>
                     </div>
 
                 </div><!--./card-->
