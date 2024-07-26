@@ -24,10 +24,5 @@ El siguiente listado son enlaces a las practicas realizadas en la misión Fronte
 5. Vue JS
    * [Pasteleria Via Lactea](https://pastelerialaunchx120.netlify.app/)
    * [Repositorio](https://github.com/AngelCruzO/Pasteleria-ViaLactea-VueJS)
-6. Azure Static Web Services
-   * [Pasteleria Via Lactea HTML Y CSS](https://lemon-ground-0b648790f.1.azurestaticapps.net)
-   * [Clon Vacunación COVID](https://happy-smoke-0e5db2e10.1.azurestaticapps.net)
-   * [Pokedex LaunchX](https://brave-forest-0c5cc010f.1.azurestaticapps.net)
-   * [Pasteleria Vis Lactea Vue JS](https://proud-sea-0cc93f10f.1.azurestaticapps.net)
 
 Dentro del repositorio tambien se encuentran las carpetas con los proyectos realizados, para no tener que navegar entre mas paginas.
